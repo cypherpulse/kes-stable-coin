@@ -9,17 +9,17 @@ plan:
     - id: 0
       transactions:
         - contract-publish:
-            contract-name: kes-v2
+            contract-name: kes-tokenv1
             expected-sender: SPGDS0Y17973EN5TCHNHGJJ9B31XWQ5YX8A36C9B
-            cost: 137130
-            path: contracts/kes-v2.clar
+            cost: 76790
+            path: contracts/kes-tokenv1.clar
             anchor-block-only: true
             clarity-version: 1
         - contract-publish:
-            contract-name: kes-v3
+            contract-name: multichain
             expected-sender: SPGDS0Y17973EN5TCHNHGJJ9B31XWQ5YX8A36C9B
-            cost: 76790
-            path: contracts/kes-v1.clar
+            cost: 137130
+            path: contracts/kes-multichain.clar
             anchor-block-only: true
             clarity-version: 1
       epoch: "2.05"
