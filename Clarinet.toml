@@ -6,11 +6,11 @@ authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-[contracts.kes-v3]
-path = "contracts/kes-v1.clar"
+[contracts.multichain]
+path = "contracts/kes-multichain.clar"
 
-[contracts.kes-v2]
-path = "contracts/kes-v2.clar"
+[contracts.kes-tokenv1]
+path = "contracts/kes-tokenv1.clar"
 
 
 
